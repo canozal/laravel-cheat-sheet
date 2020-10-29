@@ -79,6 +79,7 @@ Schema::create('blogposts', function (Blueprint $table) {
 ```
 
 Renaming an existing table
+
 php artisan make:migration change_blogposts_table_name --table=blogposts
 
 ```
